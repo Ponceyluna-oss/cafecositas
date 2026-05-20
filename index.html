@@ -250,6 +250,21 @@ transform:scale(1.05);
   body{
 background:linear-gradient(to bottom,#f5e6d3,#fff8f0);
   }
+  body{
+animation:fade 1s ease;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(10px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
 </style>
 </head>
   <footer>
